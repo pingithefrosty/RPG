@@ -31,7 +31,7 @@ public class Hero extends Entity{
 		this.leftHand=Weapon.none;
 		this.armors=new HashMap<Armor.Type, Armor>();
 		this.inv= new Inventory(30);
-		this.inv.add(new OneHandedWeapon("stick", 1));
+		this.equipRightHand(new OneHandedWeapon("stick", 1));
 		location= new Coord(0,0);
 		facing=Direction.DOWN;
 	}
@@ -50,10 +50,7 @@ public class Hero extends Entity{
 	}
 	
 	public boolean unEquipRightHand(Weapon w){
-		if(rightHand.equals(w)){
-			return unEquipRightHand();
-		}
-		return false;
+		return rightHand.equals(w) ? unEquipRightHand() : false;
 	}
 	
 	public void equipRightHand(Weapon w){
@@ -81,10 +78,7 @@ public class Hero extends Entity{
 	}
 	
 	public boolean unEquipLeftHand(OffHandWeapon w){
-		if(leftHand==w){
-			return unEquipLeftHand();
-		}
-		return false;
+		return leftHand.equals(w) ? unEquipLeftHand() : false;
 	}
 	
 	public void equipLeftHand(OffHandWeapon w){
@@ -113,10 +107,7 @@ public class Hero extends Entity{
 	
 	public boolean unEquipArmor(Armor a){
 		Armor.Type type=a.getType();
-		if (a != null && a.equals(armors.get(type))){
-			return unEquipArmor(type);
-		}
-		return false;		
+		return (a != null && a.equals(armors.get(type))) ? unEquipArmor(type): false;		
 	}
 	
 	public void equipArmor(Armor a){

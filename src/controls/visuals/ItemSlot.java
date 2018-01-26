@@ -9,7 +9,7 @@ public class ItemSlot extends InventorySlot {
 	private static final GameLogger LOGGER = new GameLogger(ItemSlot.class);
 
 	public ItemSlot(Hero hero, Item item, int quantity) {
-		super(hero, item, quantity, quantity + "x " + item.getName());
+		super(item, quantity, quantity + "x " + item.getName());
 	    this.setOnMouseReleased(x->{	if (x.getClickCount()!=2) return;
 	    								if (x.getButton().equals(MouseButton.PRIMARY)){
 		    								LOGGER.notice("Place for " + item + " left clicked");

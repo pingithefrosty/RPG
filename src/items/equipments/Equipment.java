@@ -15,7 +15,4 @@ public abstract class Equipment extends Item implements Equippable {
 		
 	}
 
-	@Override
-	abstract public void equip(Hero h);
-
 }

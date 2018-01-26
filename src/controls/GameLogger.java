@@ -12,7 +12,6 @@ import java.util.List;
 
 public class GameLogger {
 	private static List<String> gameLogs = new ArrayList<String>();
-	private static int gameLogsSize = 0;
 	
 	private static final String logFilePath = "logFile.txt";
 	private static final String logFileBakPath = "logFileBak.txt";
@@ -26,13 +25,13 @@ public class GameLogger {
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.exit(1);
-			throw new RuntimeException();
+			throw new RuntimeException(); //needed otherwise eclipse complains for writer not being initialized
 		}
 	}
 	
-	private Class cl;
+	private Class<?> cl;
 	
-	public GameLogger(Class cl){
+	public GameLogger(Class<?> cl){
 		this.cl=cl;
 	}
 	
@@ -64,16 +63,17 @@ public class GameLogger {
 	}
 	
 	public void gameLog(String s){
-		if(gameLogsSize>=gameLogsLimit){
+		if(gameLogs.size()>=gameLogsLimit){
+			//truncate gameLogs to avoid wasting memory 
 			gameLogs = getLastGameLogs(100);
 		}
 		gameLogs.add(s);
-		++gameLogsSize;
 		info(s, "GAME");
 	}
 	
 	public static List<String> getLastGameLogs(int n){
-		return gameLogs.subList(Math.max(0,gameLogsSize-n), gameLogsSize);
+		int size=gameLogs.size();
+		return gameLogs.subList(Math.max(0,size-n), size);
 	}
 	
 	public static void closeLog(){

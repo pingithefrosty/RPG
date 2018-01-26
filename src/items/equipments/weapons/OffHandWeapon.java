@@ -40,4 +40,9 @@ final class NoWeapon extends OffHandWeapon{
 	public void equip(Hero h) {
 		throw new UnsupportedOperationException();
 	}
+	
+	@Override
+	public void unEquip(Hero h) {
+		throw new UnsupportedOperationException();
+	}
 }

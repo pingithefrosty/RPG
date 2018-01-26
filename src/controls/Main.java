@@ -51,10 +51,8 @@ public class Main extends Application{
 	public static final int FHEIGHT = 60;
 	public static final int MHEIGHT = WHEIGHT - FHEIGHT;
 
-	public static void main(String args[]){
-		
-		Application.launch(args);
-				
+	public static void main(String args[]){		
+		Application.launch(args);				
 	}
 
 	@Override
@@ -86,7 +84,7 @@ public class Main extends Application{
 		
 		for(int j=0; j<GameMap.VISIBLESIZE; j++){
 			for (int i =0; i<GameMap.VISIBLESIZE; ++i){
-				mapView.add(VisualUtils.getImageView(MapObject.EMPTY), i, j);
+				mapView.add(VisualUtils.getImageView(MapObject.EMPTY), i, j); //background, a bit wasteful but idc
 				mapView.add(VisualUtils.getImageView(visMap[i][j]), i, j);
 				
 			}
@@ -96,13 +94,13 @@ public class Main extends Application{
 		mainWindow.setOnMouseReleased(null);
 		
 		mainWindow.getScene().setOnKeyReleased(x->{	KeyCode key = x.getCode(); 
-													LOGGER.notice("Main window buttonpress: " + x.getCode()); 
+													LOGGER.notice("Main window buttonpress: " + key); 
 													if (key.equals(KeyCode.I)){ 
 														switchToInv();
 													} else if (key.equals(KeyCode.L)){ 
 														switchToLogs();
 													} else if (Arrays.asList(KeyCode.UP, KeyCode.DOWN, KeyCode.LEFT, KeyCode.RIGHT).contains(key)) {
-														Direction d = Direction.valueOf(x.getCode().toString());
+														Direction d = Direction.valueOf(key.toString());
 														h.move(m, d);
 														createMainWindow();
 													} else if (key.equals(KeyCode.SPACE)) {
@@ -176,9 +174,7 @@ public class Main extends Application{
 		HBox status = new HBox(190);
 		status.getChildren().setAll(new Text("Hp: " + h.getHpState()),new Text("Def: " + h.getDef()), new Text("Dmg: " + h.getDmgRange()), new Text("Loc: " + h.getLocation()));
 		footer.getChildren().setAll(status);
-		for (String s : GameLogger.getLastGameLogs(2)){
-			footer.getChildren().add(new Text (s));
-		}
+		GameLogger.getLastGameLogs(2).stream().forEach(x->footer.getChildren().add(new Text (x)));
 	}
 	
 	private void setupHero(){

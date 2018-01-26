@@ -1,2 +1,4 @@
 /bin
 /.settings
+/resources/logFile.txt
+/resources/logFileBak.txt

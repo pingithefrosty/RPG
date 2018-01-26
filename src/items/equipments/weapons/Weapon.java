@@ -10,7 +10,7 @@ public abstract class Weapon extends Equipment {
 	
 	public static final OffHandWeapon none= new NoWeapon();
 	
-	public Weapon(String name, int base, int d, int l, boolean fullName) {
+	public Weapon(String name, int base, int d, int l, boolean fullName) { //meeeh
 		super(name);
 		this.base=base;
 		this.d=d;
