@@ -1,14 +1,854 @@
-2018-01-26T21:23:17.361 characters.Hero GAME: Equipped OneHandedWeapon: stick 1+3d3[1]
-2018-01-26T21:23:17.362 characters.Hero GAME: Got 3 HealthItem: poison[5]
-2018-01-26T21:23:17.363 characters.Hero GAME: Got 3 HealthItem: smallHpPot[2]
-2018-01-26T21:23:17.364 characters.Hero GAME: Equipped LEG-Armor: leg 2[6]
-2018-01-26T21:23:17.364 characters.Hero GAME: Unequipped OneHandedWeapon: stick 1+3d3[1]
-2018-01-26T21:23:17.364 characters.Hero GAME: Equipped OneHandedWeapon: sword 5+3d3[7]
-2018-01-26T21:23:17.364 characters.Hero GAME: Equipped Shield: shield 4 d1[8]
-2018-01-26T21:23:17.364 characters.Hero GAME: Got Dagger: dagger p1 2+4d2[9]
-2018-01-26T21:23:19.873 controls.Main NOTICE: Main window buttonpress: UP
-2018-01-26T21:23:19.873 characters.Hero NOTICE: (0,1)
-2018-01-26T21:23:19.873 map.GameMap NOTICE: Centering map on (0,1)
-2018-01-26T21:23:20.645 controls.Main NOTICE: Main window buttonpress: LEFT
-2018-01-26T21:23:20.645 characters.Hero NOTICE: (-1,1)
-2018-01-26T21:23:20.645 map.GameMap NOTICE: Centering map on (-1,1)
+2018-01-28T14:10:03.133 characters.Hero GAME: Equipped OneHandedWeapon: stick 1+3d3[1]
+2018-01-28T14:10:03.137 characters.Hero GAME: Got 3 HealthItem: poison[5]
+2018-01-28T14:10:03.137 characters.Hero GAME: Got 3 HealthItem: smallHpPot[2]
+2018-01-28T14:10:03.139 characters.Hero GAME: Equipped LEG-Armor: leg 2[6]
+2018-01-28T14:10:03.139 characters.Hero GAME: Unequipped OneHandedWeapon: stick 1+3d3[1]
+2018-01-28T14:10:03.140 characters.Hero GAME: Equipped OneHandedWeapon: sword 5+3d3[7]
+2018-01-28T14:10:03.140 characters.Hero GAME: Equipped Shield: shield 4 d1[8]
+2018-01-28T14:10:03.140 characters.Hero GAME: Got Dagger: dagger p1 2+4d2[9]
+2018-01-28T14:10:13.591 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:13.592 characters.Hero NOTICE: (0,-1)
+2018-01-28T14:10:13.592 map.GameMap NOTICE: Centering map on (0,-1)
+2018-01-28T14:10:14.258 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:10:14.258 characters.Hero NOTICE: (-1,-1)
+2018-01-28T14:10:14.258 map.GameMap NOTICE: Centering map on (-1,-1)
+2018-01-28T14:10:15.263 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:10:15.269 characters.Hero NOTICE: (-2,-1)
+2018-01-28T14:10:15.269 map.GameMap NOTICE: Centering map on (-2,-1)
+2018-01-28T14:10:16.222 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:16.222 characters.Hero NOTICE: (-1,-1)
+2018-01-28T14:10:16.222 map.GameMap NOTICE: Centering map on (-1,-1)
+2018-01-28T14:10:16.961 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:16.961 characters.Hero NOTICE: (0,-1)
+2018-01-28T14:10:16.961 map.GameMap NOTICE: Centering map on (0,-1)
+2018-01-28T14:10:17.530 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:17.530 characters.Hero NOTICE: (1,-1)
+2018-01-28T14:10:17.530 map.GameMap NOTICE: Centering map on (1,-1)
+2018-01-28T14:10:18.273 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:18.273 characters.Hero NOTICE: (2,-1)
+2018-01-28T14:10:18.273 map.GameMap NOTICE: Centering map on (2,-1)
+2018-01-28T14:10:19.077 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:19.077 characters.Hero NOTICE: (3,-1)
+2018-01-28T14:10:19.078 map.GameMap NOTICE: Centering map on (3,-1)
+2018-01-28T14:10:19.945 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:19.945 characters.Hero NOTICE: (3,0)
+2018-01-28T14:10:19.945 map.GameMap NOTICE: Centering map on (3,0)
+2018-01-28T14:10:22.269 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:22.269 characters.Hero NOTICE: (3,1)
+2018-01-28T14:10:22.269 map.GameMap NOTICE: Centering map on (3,1)
+2018-01-28T14:10:24.300 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:24.300 characters.Hero NOTICE: (3,2)
+2018-01-28T14:10:24.300 map.GameMap NOTICE: Centering map on (3,2)
+2018-01-28T14:10:25.129 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:25.129 characters.Hero NOTICE: (4,2)
+2018-01-28T14:10:25.129 map.GameMap NOTICE: Centering map on (4,2)
+2018-01-28T14:10:26.123 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:26.123 characters.NPCs.Monster GAME: goblin(1) [0] got hit for 7 losing -6 health. Remaining: 13/19
+2018-01-28T14:10:26.123 characters.NPCs.Monster INFO: goblin(1) [0] retaliating
+2018-01-28T14:10:26.123 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:10:29.587 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:30.784 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:30.784 characters.NPCs.Monster GAME: goblin(1) [0] got hit for 9 losing -8 health. Remaining: 5/19
+2018-01-28T14:10:30.784 characters.NPCs.Monster INFO: goblin(1) [0] retaliating
+2018-01-28T14:10:30.784 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:10:36.457 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:36.457 characters.NPCs.Monster GAME: goblin(1) [0] died
+2018-01-28T14:10:36.458 characters.Hero GAME: Got LEG-Armor: leg 0[10]
+2018-01-28T14:10:39.202 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:39.202 characters.Hero NOTICE: (5,2)
+2018-01-28T14:10:39.202 map.GameMap NOTICE: Centering map on (5,2)
+2018-01-28T14:10:40.360 controls.Main NOTICE: Main window buttonpress: I
+2018-01-28T14:10:42.463 controls.Main NOTICE: Click on inventory
+2018-01-28T14:10:43.115 controls.Main NOTICE: Click on inventory
+2018-01-28T14:10:43.595 controls.Main NOTICE: Click on inventory
+2018-01-28T14:10:45.266 controls.Main NOTICE: Click on inventory
+2018-01-28T14:10:45.907 controls.Main NOTICE: Buttonpress in inventory
+2018-01-28T14:10:46.230 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:46.230 characters.Hero NOTICE: (6,2)
+2018-01-28T14:10:46.230 map.GameMap NOTICE: Centering map on (6,2)
+2018-01-28T14:10:47.331 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:47.331 characters.Hero NOTICE: (6,1)
+2018-01-28T14:10:47.332 map.GameMap NOTICE: Centering map on (6,1)
+2018-01-28T14:10:47.740 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:47.740 characters.Hero NOTICE: (7,1)
+2018-01-28T14:10:47.740 map.GameMap NOTICE: Centering map on (7,1)
+2018-01-28T14:10:48.344 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:48.810 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:48.810 characters.NPCs.Monster GAME: goblin(1) [1] got hit for 8 losing -8 health. Remaining: 16/24
+2018-01-28T14:10:48.810 characters.NPCs.Monster INFO: goblin(1) [1] retaliating
+2018-01-28T14:10:48.810 characters.Hero GAME: You got hit for 1 losing 0
+2018-01-28T14:10:49.127 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:49.127 characters.NPCs.Monster GAME: goblin(1) [1] got hit for 12 losing -12 health. Remaining: 4/24
+2018-01-28T14:10:49.127 characters.NPCs.Monster INFO: goblin(1) [1] retaliating
+2018-01-28T14:10:49.127 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:10:49.384 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:49.386 characters.NPCs.Monster GAME: goblin(1) [1] died
+2018-01-28T14:10:49.386 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:10:49.807 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:49.992 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:50.646 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:50.646 characters.Hero NOTICE: (7,0)
+2018-01-28T14:10:50.646 map.GameMap NOTICE: Centering map on (7,0)
+2018-01-28T14:10:51.071 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:51.071 characters.Hero NOTICE: (8,0)
+2018-01-28T14:10:51.071 map.GameMap NOTICE: Centering map on (8,0)
+2018-01-28T14:10:51.614 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:51.938 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:51.938 characters.NPCs.Monster GAME: goblin(1) [2] got hit for 11 losing -9 health. Remaining: 7/16
+2018-01-28T14:10:51.938 characters.NPCs.Monster INFO: goblin(1) [2] retaliating
+2018-01-28T14:10:51.939 characters.Hero GAME: You got hit for 2 losing 0
+2018-01-28T14:10:52.117 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:52.117 characters.NPCs.Monster GAME: goblin(1) [2] got hit for 8 losing -6 health. Remaining: 1/16
+2018-01-28T14:10:52.118 characters.NPCs.Monster INFO: goblin(1) [2] retaliating
+2018-01-28T14:10:52.118 characters.Hero GAME: You got hit for 2 losing 0
+2018-01-28T14:10:52.349 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:52.349 characters.NPCs.Monster GAME: goblin(1) [2] died
+2018-01-28T14:10:52.349 characters.Hero GAME: Got OneHandedWeapon: axe 0+3d3[11]
+2018-01-28T14:10:52.612 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:52.904 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:53.164 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:53.571 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:53.571 characters.Hero NOTICE: (8,-1)
+2018-01-28T14:10:53.572 map.GameMap NOTICE: Centering map on (8,-1)
+2018-01-28T14:10:53.806 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:53.806 characters.Hero NOTICE: (9,-1)
+2018-01-28T14:10:53.806 map.GameMap NOTICE: Centering map on (9,-1)
+2018-01-28T14:10:54.589 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:10:55.009 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:55.009 characters.NPCs.Monster GAME: goblin(1) [3] got hit for 8 losing -7 health. Remaining: 15/22
+2018-01-28T14:10:55.010 characters.NPCs.Monster INFO: goblin(1) [3] retaliating
+2018-01-28T14:10:55.010 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:10:55.180 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:55.184 characters.NPCs.Monster GAME: goblin(1) [3] got hit for 9 losing -8 health. Remaining: 7/22
+2018-01-28T14:10:55.185 characters.NPCs.Monster INFO: goblin(1) [3] retaliating
+2018-01-28T14:10:55.185 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:10:55.415 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:55.415 characters.NPCs.Monster GAME: goblin(1) [3] died
+2018-01-28T14:10:55.417 characters.Hero GAME: Got CHEST-Armor: chest 1[12]
+2018-01-28T14:10:55.604 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:55.816 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:56.268 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:56.268 characters.Hero NOTICE: (10,-1)
+2018-01-28T14:10:56.268 map.GameMap NOTICE: Centering map on (10,-1)
+2018-01-28T14:10:56.793 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:56.793 characters.Hero NOTICE: (11,-1)
+2018-01-28T14:10:56.793 map.GameMap NOTICE: Centering map on (11,-1)
+2018-01-28T14:10:57.008 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:57.008 characters.Hero NOTICE: (12,-1)
+2018-01-28T14:10:57.008 map.GameMap NOTICE: Centering map on (12,-1)
+2018-01-28T14:10:57.230 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:57.230 characters.Hero NOTICE: (13,-1)
+2018-01-28T14:10:57.230 map.GameMap NOTICE: Centering map on (13,-1)
+2018-01-28T14:10:58.057 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:10:58.428 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:10:58.658 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:58.658 characters.Hero NOTICE: (13,0)
+2018-01-28T14:10:58.658 map.GameMap NOTICE: Centering map on (13,0)
+2018-01-28T14:10:58.886 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:58.886 characters.Hero NOTICE: (13,1)
+2018-01-28T14:10:58.886 map.GameMap NOTICE: Centering map on (13,1)
+2018-01-28T14:10:59.108 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:10:59.577 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:10:59.577 characters.Hero NOTICE: (12,1)
+2018-01-28T14:10:59.577 map.GameMap NOTICE: Centering map on (12,1)
+2018-01-28T14:10:59.873 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:10:59.873 characters.Hero NOTICE: (11,1)
+2018-01-28T14:10:59.874 map.GameMap NOTICE: Centering map on (11,1)
+2018-01-28T14:11:00.286 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:00.286 characters.Hero NOTICE: (11,2)
+2018-01-28T14:11:00.286 map.GameMap NOTICE: Centering map on (11,2)
+2018-01-28T14:11:00.486 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:00.665 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:00.788 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:00.788 characters.NPCs.Monster GAME: goblin(1) [4] got hit for 8 losing -7 health. Remaining: 15/22
+2018-01-28T14:11:00.789 characters.NPCs.Monster INFO: goblin(1) [4] retaliating
+2018-01-28T14:11:00.789 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:00.935 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:00.935 characters.NPCs.Monster GAME: goblin(1) [4] got hit for 11 losing -10 health. Remaining: 5/22
+2018-01-28T14:11:00.936 characters.NPCs.Monster INFO: goblin(1) [4] retaliating
+2018-01-28T14:11:00.936 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:01.153 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:01.153 characters.NPCs.Monster GAME: goblin(1) [4] died
+2018-01-28T14:11:01.153 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:11:01.335 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:01.484 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:01.801 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:01.801 characters.Hero NOTICE: (11,3)
+2018-01-28T14:11:01.801 map.GameMap NOTICE: Centering map on (11,3)
+2018-01-28T14:11:01.994 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:01.994 characters.Hero NOTICE: (11,4)
+2018-01-28T14:11:01.994 map.GameMap NOTICE: Centering map on (11,4)
+2018-01-28T14:11:02.162 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:02.162 characters.Hero NOTICE: (11,5)
+2018-01-28T14:11:02.162 map.GameMap NOTICE: Centering map on (11,5)
+2018-01-28T14:11:02.336 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:02.336 characters.Hero NOTICE: (11,6)
+2018-01-28T14:11:02.336 map.GameMap NOTICE: Centering map on (11,6)
+2018-01-28T14:11:02.502 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:02.502 characters.Hero NOTICE: (11,7)
+2018-01-28T14:11:02.502 map.GameMap NOTICE: Centering map on (11,7)
+2018-01-28T14:11:02.669 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:02.669 characters.Hero NOTICE: (11,8)
+2018-01-28T14:11:02.669 map.GameMap NOTICE: Centering map on (11,8)
+2018-01-28T14:11:02.812 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:02.812 characters.Hero NOTICE: (11,9)
+2018-01-28T14:11:02.812 map.GameMap NOTICE: Centering map on (11,9)
+2018-01-28T14:11:03.198 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:03.198 characters.Hero NOTICE: (10,9)
+2018-01-28T14:11:03.198 map.GameMap NOTICE: Centering map on (10,9)
+2018-01-28T14:11:04.242 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:04.821 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:04.821 characters.NPCs.Monster GAME: dragon(2) [5] got hit for 11 losing -11 health. Remaining: 40/51
+2018-01-28T14:11:04.821 characters.NPCs.Monster INFO: dragon(2) [5] retaliating
+2018-01-28T14:11:04.821 characters.Hero GAME: You got hit for 11 losing -5
+2018-01-28T14:11:04.988 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:04.988 characters.NPCs.Monster GAME: dragon(2) [5] got hit for 8 losing -8 health. Remaining: 32/51
+2018-01-28T14:11:04.988 characters.NPCs.Monster INFO: dragon(2) [5] retaliating
+2018-01-28T14:11:04.989 characters.Hero GAME: You got hit for 9 losing -3
+2018-01-28T14:11:05.167 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:05.167 characters.NPCs.Monster GAME: dragon(2) [5] got hit for 11 losing -11 health. Remaining: 21/51
+2018-01-28T14:11:05.167 characters.NPCs.Monster INFO: dragon(2) [5] retaliating
+2018-01-28T14:11:05.167 characters.Hero GAME: You got hit for 12 losing -6
+2018-01-28T14:11:05.343 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:05.344 characters.NPCs.Monster GAME: dragon(2) [5] got hit for 9 losing -9 health. Remaining: 12/51
+2018-01-28T14:11:05.344 characters.NPCs.Monster INFO: dragon(2) [5] retaliating
+2018-01-28T14:11:05.344 characters.Hero GAME: You got hit for 11 losing -5
+2018-01-28T14:11:05.528 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:05.528 characters.NPCs.Monster GAME: dragon(2) [5] got hit for 11 losing -11 health. Remaining: 1/51
+2018-01-28T14:11:05.528 characters.NPCs.Monster INFO: dragon(2) [5] retaliating
+2018-01-28T14:11:05.528 characters.Hero GAME: You got hit for 10 losing -4
+2018-01-28T14:11:05.700 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:05.700 characters.NPCs.Monster GAME: dragon(2) [5] died
+2018-01-28T14:11:05.700 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:11:05.859 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:08.142 controls.Main NOTICE: Main window buttonpress: I
+2018-01-28T14:11:09.788 controls.Main NOTICE: Click on inventory
+2018-01-28T14:11:10.370 controls.Main NOTICE: Buttonpress in inventory
+2018-01-28T14:11:10.721 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:10.721 characters.Hero NOTICE: (11,9)
+2018-01-28T14:11:10.721 map.GameMap NOTICE: Centering map on (11,9)
+2018-01-28T14:11:11.337 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:11.337 characters.Hero NOTICE: (10,9)
+2018-01-28T14:11:11.337 map.GameMap NOTICE: Centering map on (10,9)
+2018-01-28T14:11:12.141 controls.Main NOTICE: Main window buttonpress: I
+2018-01-28T14:11:12.582 controls.Main NOTICE: Buttonpress in inventory
+2018-01-28T14:11:13.221 controls.Main NOTICE: Main window buttonpress: I
+2018-01-28T14:11:17.511 controls.Main NOTICE: Click on inventory
+2018-01-28T14:11:19.282 controls.visuals.ArmorSlot NOTICE: EqPlace for null pressed
+2018-01-28T14:11:19.282 controls.Main NOTICE: Click on inventory
+2018-01-28T14:11:21.361 controls.Main NOTICE: Buttonpress in inventory
+2018-01-28T14:11:22.293 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:22.293 characters.Hero NOTICE: (10,10)
+2018-01-28T14:11:22.293 map.GameMap NOTICE: Centering map on (10,10)
+2018-01-28T14:11:22.505 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:22.505 characters.Hero NOTICE: (10,11)
+2018-01-28T14:11:22.505 map.GameMap NOTICE: Centering map on (10,11)
+2018-01-28T14:11:22.693 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:22.693 characters.Hero NOTICE: (10,12)
+2018-01-28T14:11:22.693 map.GameMap NOTICE: Centering map on (10,12)
+2018-01-28T14:11:23.086 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:23.086 characters.Hero NOTICE: (10,13)
+2018-01-28T14:11:23.086 map.GameMap NOTICE: Centering map on (10,13)
+2018-01-28T14:11:23.430 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:23.430 characters.Hero NOTICE: (10,14)
+2018-01-28T14:11:23.430 map.GameMap NOTICE: Centering map on (10,14)
+2018-01-28T14:11:23.638 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:23.638 characters.Hero NOTICE: (10,15)
+2018-01-28T14:11:23.638 map.GameMap NOTICE: Centering map on (10,15)
+2018-01-28T14:11:23.864 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:23.864 characters.Hero NOTICE: (10,16)
+2018-01-28T14:11:23.864 map.GameMap NOTICE: Centering map on (10,16)
+2018-01-28T14:11:24.177 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:24.177 characters.Hero NOTICE: (10,17)
+2018-01-28T14:11:24.177 map.GameMap NOTICE: Centering map on (10,17)
+2018-01-28T14:11:24.382 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:24.383 characters.Hero NOTICE: (10,18)
+2018-01-28T14:11:24.383 map.GameMap NOTICE: Centering map on (10,18)
+2018-01-28T14:11:24.573 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:24.573 characters.Hero NOTICE: (10,19)
+2018-01-28T14:11:24.573 map.GameMap NOTICE: Centering map on (10,19)
+2018-01-28T14:11:24.822 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:24.822 characters.Hero NOTICE: (10,20)
+2018-01-28T14:11:24.822 map.GameMap NOTICE: Centering map on (10,20)
+2018-01-28T14:11:25.427 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:25.427 characters.Hero NOTICE: (11,20)
+2018-01-28T14:11:25.427 map.GameMap NOTICE: Centering map on (11,20)
+2018-01-28T14:11:25.823 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:25.823 characters.NPCs.Monster GAME: goblin(1) [6] got hit for 8 losing -7 health. Remaining: 6/13
+2018-01-28T14:11:25.823 characters.NPCs.Monster INFO: goblin(1) [6] retaliating
+2018-01-28T14:11:25.823 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:25.972 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:25.972 characters.NPCs.Monster GAME: goblin(1) [6] died
+2018-01-28T14:11:25.972 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:11:26.125 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:26.283 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:26.487 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:26.644 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:26.644 characters.Hero NOTICE: (11,19)
+2018-01-28T14:11:26.644 map.GameMap NOTICE: Centering map on (11,19)
+2018-01-28T14:11:26.869 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:26.869 characters.Hero NOTICE: (12,19)
+2018-01-28T14:11:26.869 map.GameMap NOTICE: Centering map on (12,19)
+2018-01-28T14:11:27.055 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:27.056 characters.Hero NOTICE: (13,19)
+2018-01-28T14:11:27.056 map.GameMap NOTICE: Centering map on (13,19)
+2018-01-28T14:11:27.226 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:27.418 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:27.701 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:27.701 characters.NPCs.Monster GAME: goblin(1) [7] got hit for 10 losing -9 health. Remaining: 13/22
+2018-01-28T14:11:27.701 characters.NPCs.Monster INFO: goblin(1) [7] retaliating
+2018-01-28T14:11:27.701 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:27.861 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:27.861 characters.NPCs.Monster GAME: goblin(1) [7] got hit for 11 losing -10 health. Remaining: 3/22
+2018-01-28T14:11:27.861 characters.NPCs.Monster INFO: goblin(1) [7] retaliating
+2018-01-28T14:11:27.861 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:28.047 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:28.047 characters.NPCs.Monster GAME: goblin(1) [7] died
+2018-01-28T14:11:28.047 characters.Hero GAME: Got LEG-Armor: leg 1[13]
+2018-01-28T14:11:28.275 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:28.524 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:28.693 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:28.693 characters.Hero NOTICE: (13,18)
+2018-01-28T14:11:28.693 map.GameMap NOTICE: Centering map on (13,18)
+2018-01-28T14:11:28.866 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:28.866 characters.Hero NOTICE: (13,17)
+2018-01-28T14:11:28.866 map.GameMap NOTICE: Centering map on (13,17)
+2018-01-28T14:11:29.043 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:29.043 characters.Hero NOTICE: (13,16)
+2018-01-28T14:11:29.043 map.GameMap NOTICE: Centering map on (13,16)
+2018-01-28T14:11:29.208 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:29.355 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:29.694 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:29.694 characters.Hero NOTICE: (14,16)
+2018-01-28T14:11:29.694 map.GameMap NOTICE: Centering map on (14,16)
+2018-01-28T14:11:29.866 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:29.866 characters.Hero NOTICE: (15,16)
+2018-01-28T14:11:29.866 map.GameMap NOTICE: Centering map on (15,16)
+2018-01-28T14:11:30.037 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:30.037 characters.Hero NOTICE: (16,16)
+2018-01-28T14:11:30.037 map.GameMap NOTICE: Centering map on (16,16)
+2018-01-28T14:11:30.802 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:30.802 characters.Hero NOTICE: (17,16)
+2018-01-28T14:11:30.802 map.GameMap NOTICE: Centering map on (17,16)
+2018-01-28T14:11:31.008 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:31.008 characters.Hero NOTICE: (17,15)
+2018-01-28T14:11:31.008 map.GameMap NOTICE: Centering map on (17,15)
+2018-01-28T14:11:31.212 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:31.212 characters.Hero NOTICE: (17,14)
+2018-01-28T14:11:31.212 map.GameMap NOTICE: Centering map on (17,14)
+2018-01-28T14:11:31.831 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:31.972 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:31.972 characters.NPCs.Monster GAME: goblin(1) [8] got hit for 10 losing -9 health. Remaining: 11/20
+2018-01-28T14:11:31.972 characters.NPCs.Monster INFO: goblin(1) [8] retaliating
+2018-01-28T14:11:31.972 characters.Hero GAME: You got hit for 2 losing 0
+2018-01-28T14:11:32.132 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:32.132 characters.NPCs.Monster GAME: goblin(1) [8] got hit for 10 losing -9 health. Remaining: 2/20
+2018-01-28T14:11:32.132 characters.NPCs.Monster INFO: goblin(1) [8] retaliating
+2018-01-28T14:11:32.132 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:11:32.318 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:32.318 characters.NPCs.Monster GAME: goblin(1) [8] died
+2018-01-28T14:11:32.319 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:11:32.468 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:32.688 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:32.851 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:32.851 characters.Hero NOTICE: (16,14)
+2018-01-28T14:11:32.851 map.GameMap NOTICE: Centering map on (16,14)
+2018-01-28T14:11:33.087 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:33.087 characters.Hero NOTICE: (15,14)
+2018-01-28T14:11:33.087 map.GameMap NOTICE: Centering map on (15,14)
+2018-01-28T14:11:33.331 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:33.331 characters.Hero NOTICE: (15,13)
+2018-01-28T14:11:33.331 map.GameMap NOTICE: Centering map on (15,13)
+2018-01-28T14:11:33.542 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:33.542 characters.Hero NOTICE: (15,12)
+2018-01-28T14:11:33.542 map.GameMap NOTICE: Centering map on (15,12)
+2018-01-28T14:11:33.708 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:33.708 characters.Hero NOTICE: (14,12)
+2018-01-28T14:11:33.708 map.GameMap NOTICE: Centering map on (14,12)
+2018-01-28T14:11:33.936 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:34.410 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:34.411 characters.NPCs.Monster GAME: goblin(2) [9] got hit for 8 losing -5 health. Remaining: 31/36
+2018-01-28T14:11:34.411 characters.NPCs.Monster INFO: goblin(2) [9] retaliating
+2018-01-28T14:11:34.411 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:34.568 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:34.568 characters.NPCs.Monster GAME: goblin(2) [9] got hit for 10 losing -7 health. Remaining: 24/36
+2018-01-28T14:11:34.568 characters.NPCs.Monster INFO: goblin(2) [9] retaliating
+2018-01-28T14:11:34.568 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:11:34.821 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:34.821 characters.NPCs.Monster GAME: goblin(2) [9] got hit for 8 losing -5 health. Remaining: 19/36
+2018-01-28T14:11:34.821 characters.NPCs.Monster INFO: goblin(2) [9] retaliating
+2018-01-28T14:11:34.821 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:35.021 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:35.022 characters.NPCs.Monster GAME: goblin(2) [9] got hit for 8 losing -5 health. Remaining: 14/36
+2018-01-28T14:11:35.022 characters.NPCs.Monster INFO: goblin(2) [9] retaliating
+2018-01-28T14:11:35.022 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:35.203 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:35.203 characters.NPCs.Monster GAME: goblin(2) [9] got hit for 10 losing -7 health. Remaining: 7/36
+2018-01-28T14:11:35.203 characters.NPCs.Monster INFO: goblin(2) [9] retaliating
+2018-01-28T14:11:35.203 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:35.323 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:35.323 characters.Hero NOTICE: (14,11)
+2018-01-28T14:11:35.323 map.GameMap NOTICE: Centering map on (14,11)
+2018-01-28T14:11:35.531 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:35.994 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:35.994 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 9 losing -6 health. Remaining: 35/41
+2018-01-28T14:11:35.994 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:35.994 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:36.137 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:36.137 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 9 losing -6 health. Remaining: 29/41
+2018-01-28T14:11:36.138 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:36.138 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:11:36.314 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:36.314 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 7 losing -4 health. Remaining: 25/41
+2018-01-28T14:11:36.315 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:36.315 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:36.530 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:36.531 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 9 losing -6 health. Remaining: 19/41
+2018-01-28T14:11:36.531 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:36.531 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:36.696 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:36.696 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 10 losing -7 health. Remaining: 12/41
+2018-01-28T14:11:36.696 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:36.696 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:11:37.532 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:37.532 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 11 losing -8 health. Remaining: 4/41
+2018-01-28T14:11:37.532 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:37.532 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:38.295 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:38.295 characters.NPCs.Monster GAME: goblin(2) [10] got hit for 6 losing -3 health. Remaining: 1/41
+2018-01-28T14:11:38.295 characters.NPCs.Monster INFO: goblin(2) [10] retaliating
+2018-01-28T14:11:38.295 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:38.885 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:38.885 characters.NPCs.Monster GAME: goblin(2) [10] died
+2018-01-28T14:11:38.885 characters.Hero GAME: Got Shield: shield 3 d2[14]
+2018-01-28T14:11:39.685 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:39.685 characters.Hero NOTICE: (14,12)
+2018-01-28T14:11:39.685 map.GameMap NOTICE: Centering map on (14,12)
+2018-01-28T14:11:40.192 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:40.381 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:40.381 characters.NPCs.Monster GAME: goblin(2) [9] died
+2018-01-28T14:11:40.381 characters.Hero GAME: Got HealthItem: medHpPot[3]
+2018-01-28T14:11:40.545 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:40.703 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:40.865 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:41.017 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:42.133 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.133 characters.Hero NOTICE: (13,12)
+2018-01-28T14:11:42.133 map.GameMap NOTICE: Centering map on (13,12)
+2018-01-28T14:11:42.296 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.296 characters.Hero NOTICE: (12,12)
+2018-01-28T14:11:42.296 map.GameMap NOTICE: Centering map on (12,12)
+2018-01-28T14:11:42.463 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.463 characters.Hero NOTICE: (11,12)
+2018-01-28T14:11:42.463 map.GameMap NOTICE: Centering map on (11,12)
+2018-01-28T14:11:42.624 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.624 characters.Hero NOTICE: (10,12)
+2018-01-28T14:11:42.624 map.GameMap NOTICE: Centering map on (10,12)
+2018-01-28T14:11:42.783 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.783 characters.Hero NOTICE: (9,12)
+2018-01-28T14:11:42.783 map.GameMap NOTICE: Centering map on (9,12)
+2018-01-28T14:11:42.931 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:42.931 characters.Hero NOTICE: (8,12)
+2018-01-28T14:11:42.931 map.GameMap NOTICE: Centering map on (8,12)
+2018-01-28T14:11:43.130 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:43.130 characters.Hero NOTICE: (7,12)
+2018-01-28T14:11:43.130 map.GameMap NOTICE: Centering map on (7,12)
+2018-01-28T14:11:43.314 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:43.314 characters.Hero NOTICE: (6,12)
+2018-01-28T14:11:43.314 map.GameMap NOTICE: Centering map on (6,12)
+2018-01-28T14:11:43.429 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:43.429 characters.Hero NOTICE: (5,12)
+2018-01-28T14:11:43.429 map.GameMap NOTICE: Centering map on (5,12)
+2018-01-28T14:11:43.950 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:43.950 characters.Hero NOTICE: (5,13)
+2018-01-28T14:11:43.950 map.GameMap NOTICE: Centering map on (5,13)
+2018-01-28T14:11:44.252 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:44.477 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:44.477 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 8 losing -4 health. Remaining: 29/33
+2018-01-28T14:11:44.477 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:44.477 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:44.654 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:44.655 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 8 losing -4 health. Remaining: 25/33
+2018-01-28T14:11:44.655 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:44.655 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:44.821 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:44.821 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 11 losing -7 health. Remaining: 18/33
+2018-01-28T14:11:44.821 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:44.821 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:44.990 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:44.991 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 7 losing -3 health. Remaining: 15/33
+2018-01-28T14:11:44.991 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:44.991 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:11:45.155 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:45.155 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 9 losing -5 health. Remaining: 10/33
+2018-01-28T14:11:45.155 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:45.156 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:45.326 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:45.326 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 9 losing -5 health. Remaining: 5/33
+2018-01-28T14:11:45.326 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:45.326 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:11:45.487 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:45.488 characters.NPCs.Monster GAME: goblin(2) [11] got hit for 6 losing -2 health. Remaining: 3/33
+2018-01-28T14:11:45.488 characters.NPCs.Monster INFO: goblin(2) [11] retaliating
+2018-01-28T14:11:45.488 characters.Hero GAME: You got hit for 7 losing -1
+2018-01-28T14:11:45.946 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:45.946 characters.NPCs.Monster GAME: goblin(2) [11] died
+2018-01-28T14:11:45.946 characters.Hero GAME: Got HealthItem: smallHpPot[2]
+2018-01-28T14:11:46.126 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:46.384 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:46.592 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:46.788 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:46.788 characters.Hero NOTICE: (5,14)
+2018-01-28T14:11:46.788 map.GameMap NOTICE: Centering map on (5,14)
+2018-01-28T14:11:47.032 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:47.032 characters.Hero NOTICE: (4,14)
+2018-01-28T14:11:47.032 map.GameMap NOTICE: Centering map on (4,14)
+2018-01-28T14:11:47.134 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:47.278 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:47.278 characters.Hero NOTICE: (3,14)
+2018-01-28T14:11:47.278 map.GameMap NOTICE: Centering map on (3,14)
+2018-01-28T14:11:47.487 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:47.488 characters.Hero NOTICE: (2,14)
+2018-01-28T14:11:47.488 map.GameMap NOTICE: Centering map on (2,14)
+2018-01-28T14:11:47.701 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:47.701 characters.Hero NOTICE: (1,14)
+2018-01-28T14:11:47.701 map.GameMap NOTICE: Centering map on (1,14)
+2018-01-28T14:11:47.881 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:47.881 characters.Hero NOTICE: (0,14)
+2018-01-28T14:11:47.881 map.GameMap NOTICE: Centering map on (0,14)
+2018-01-28T14:11:48.059 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:48.059 characters.Hero NOTICE: (-1,14)
+2018-01-28T14:11:48.059 map.GameMap NOTICE: Centering map on (-1,14)
+2018-01-28T14:11:48.244 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:48.701 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:48.701 characters.Hero NOTICE: (-1,15)
+2018-01-28T14:11:48.701 map.GameMap NOTICE: Centering map on (-1,15)
+2018-01-28T14:11:48.914 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:48.914 characters.Hero NOTICE: (-1,16)
+2018-01-28T14:11:48.914 map.GameMap NOTICE: Centering map on (-1,16)
+2018-01-28T14:11:49.143 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:49.143 characters.Hero NOTICE: (-2,16)
+2018-01-28T14:11:49.143 map.GameMap NOTICE: Centering map on (-2,16)
+2018-01-28T14:11:49.311 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:49.311 characters.Hero NOTICE: (-3,16)
+2018-01-28T14:11:49.311 map.GameMap NOTICE: Centering map on (-3,16)
+2018-01-28T14:11:49.663 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:49.663 characters.Hero NOTICE: (-3,17)
+2018-01-28T14:11:49.663 map.GameMap NOTICE: Centering map on (-3,17)
+2018-01-28T14:11:49.850 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:11:49.850 characters.Hero NOTICE: (-3,18)
+2018-01-28T14:11:49.850 map.GameMap NOTICE: Centering map on (-3,18)
+2018-01-28T14:11:50.151 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:50.151 characters.Hero NOTICE: (-2,18)
+2018-01-28T14:11:50.151 map.GameMap NOTICE: Centering map on (-2,18)
+2018-01-28T14:11:50.380 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:11:50.381 characters.Hero NOTICE: (-1,18)
+2018-01-28T14:11:50.381 map.GameMap NOTICE: Centering map on (-1,18)
+2018-01-28T14:11:50.944 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:50.944 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 10 losing -6 health. Remaining: 28/34
+2018-01-28T14:11:50.944 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:50.944 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:51.099 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.099 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 8 losing -4 health. Remaining: 24/34
+2018-01-28T14:11:51.099 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.099 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:51.318 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.318 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 10 losing -6 health. Remaining: 18/34
+2018-01-28T14:11:51.318 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.318 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:11:51.493 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.493 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 8 losing -4 health. Remaining: 14/34
+2018-01-28T14:11:51.493 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.493 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:51.684 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.684 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 8 losing -4 health. Remaining: 10/34
+2018-01-28T14:11:51.684 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.684 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:11:51.816 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.816 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 7 losing -3 health. Remaining: 7/34
+2018-01-28T14:11:51.816 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.816 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:51.969 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:51.969 characters.NPCs.Monster GAME: goblin(2) [12] got hit for 8 losing -4 health. Remaining: 3/34
+2018-01-28T14:11:51.969 characters.NPCs.Monster INFO: goblin(2) [12] retaliating
+2018-01-28T14:11:51.970 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:11:52.136 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:52.136 characters.NPCs.Monster GAME: goblin(2) [12] died
+2018-01-28T14:11:52.137 characters.Hero GAME: Got BOOTS-Armor: boots 3[15]
+2018-01-28T14:11:52.274 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:52.402 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:52.544 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:11:53.061 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:53.061 characters.Hero NOTICE: (-2,18)
+2018-01-28T14:11:53.061 map.GameMap NOTICE: Centering map on (-2,18)
+2018-01-28T14:11:53.224 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:53.224 characters.Hero NOTICE: (-3,18)
+2018-01-28T14:11:53.224 map.GameMap NOTICE: Centering map on (-3,18)
+2018-01-28T14:11:53.388 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:53.388 characters.Hero NOTICE: (-4,18)
+2018-01-28T14:11:53.388 map.GameMap NOTICE: Centering map on (-4,18)
+2018-01-28T14:11:53.574 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:53.574 characters.Hero NOTICE: (-5,18)
+2018-01-28T14:11:53.574 map.GameMap NOTICE: Centering map on (-5,18)
+2018-01-28T14:11:53.748 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:53.748 characters.Hero NOTICE: (-6,18)
+2018-01-28T14:11:53.748 map.GameMap NOTICE: Centering map on (-6,18)
+2018-01-28T14:11:53.926 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:54.100 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:54.359 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:11:54.359 characters.Hero NOTICE: (-6,17)
+2018-01-28T14:11:54.359 map.GameMap NOTICE: Centering map on (-6,17)
+2018-01-28T14:11:54.654 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:54.654 characters.Hero NOTICE: (-7,17)
+2018-01-28T14:11:54.654 map.GameMap NOTICE: Centering map on (-7,17)
+2018-01-28T14:11:54.845 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:54.845 characters.Hero NOTICE: (-8,17)
+2018-01-28T14:11:54.845 map.GameMap NOTICE: Centering map on (-8,17)
+2018-01-28T14:11:55.037 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:55.037 characters.Hero NOTICE: (-9,17)
+2018-01-28T14:11:55.037 map.GameMap NOTICE: Centering map on (-9,17)
+2018-01-28T14:11:55.233 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:11:55.233 characters.Hero NOTICE: (-10,17)
+2018-01-28T14:11:55.233 map.GameMap NOTICE: Centering map on (-10,17)
+2018-01-28T14:11:56.288 controls.Main NOTICE: Main window buttonpress: I
+2018-01-28T14:12:07.409 controls.Main NOTICE: Click on inventory
+2018-01-28T14:12:08.185 controls.Main NOTICE: Buttonpress in inventory
+2018-01-28T14:12:08.808 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:08.809 characters.Hero NOTICE: (-11,17)
+2018-01-28T14:12:08.809 map.GameMap NOTICE: Centering map on (-11,17)
+2018-01-28T14:12:09.335 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:09.335 characters.Hero NOTICE: (-12,17)
+2018-01-28T14:12:09.335 map.GameMap NOTICE: Centering map on (-12,17)
+2018-01-28T14:12:09.508 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:09.508 characters.Hero NOTICE: (-13,17)
+2018-01-28T14:12:09.508 map.GameMap NOTICE: Centering map on (-13,17)
+2018-01-28T14:12:09.718 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:09.719 characters.Hero NOTICE: (-14,17)
+2018-01-28T14:12:09.719 map.GameMap NOTICE: Centering map on (-14,17)
+2018-01-28T14:12:09.869 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:09.869 characters.Hero NOTICE: (-15,17)
+2018-01-28T14:12:09.869 map.GameMap NOTICE: Centering map on (-15,17)
+2018-01-28T14:12:10.070 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:10.070 characters.Hero NOTICE: (-16,17)
+2018-01-28T14:12:10.070 map.GameMap NOTICE: Centering map on (-16,17)
+2018-01-28T14:12:10.251 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:10.251 characters.Hero NOTICE: (-17,17)
+2018-01-28T14:12:10.251 map.GameMap NOTICE: Centering map on (-17,17)
+2018-01-28T14:12:10.467 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:10.467 characters.Hero NOTICE: (-18,17)
+2018-01-28T14:12:10.467 map.GameMap NOTICE: Centering map on (-18,17)
+2018-01-28T14:12:10.679 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:10.679 characters.Hero NOTICE: (-19,17)
+2018-01-28T14:12:10.679 map.GameMap NOTICE: Centering map on (-19,17)
+2018-01-28T14:12:10.885 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:12:10.885 characters.Hero NOTICE: (-19,18)
+2018-01-28T14:12:10.885 map.GameMap NOTICE: Centering map on (-19,18)
+2018-01-28T14:12:11.086 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:12:11.086 characters.Hero NOTICE: (-19,19)
+2018-01-28T14:12:11.086 map.GameMap NOTICE: Centering map on (-19,19)
+2018-01-28T14:12:11.715 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:12.036 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.036 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 11 losing -8 health. Remaining: 32/40
+2018-01-28T14:12:12.036 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.037 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:12:12.222 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.222 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 10 losing -7 health. Remaining: 25/40
+2018-01-28T14:12:12.222 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.222 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:12.411 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.411 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 9 losing -6 health. Remaining: 19/40
+2018-01-28T14:12:12.411 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.411 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:12:12.573 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.573 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 9 losing -6 health. Remaining: 13/40
+2018-01-28T14:12:12.573 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.573 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:12:12.799 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.799 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 7 losing -4 health. Remaining: 9/40
+2018-01-28T14:12:12.799 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.799 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:12.949 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:12.949 characters.NPCs.Monster GAME: goblin(2) [14] got hit for 10 losing -7 health. Remaining: 2/40
+2018-01-28T14:12:12.949 characters.NPCs.Monster INFO: goblin(2) [14] retaliating
+2018-01-28T14:12:12.949 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:13.119 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:13.119 characters.NPCs.Monster GAME: goblin(2) [14] died
+2018-01-28T14:12:13.119 characters.Hero GAME: Got HealthItem: medHpPot[3]
+2018-01-28T14:12:13.246 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:13.369 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:13.484 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:13.617 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:14.476 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:14.476 characters.Hero NOTICE: (-20,19)
+2018-01-28T14:12:14.476 map.GameMap NOTICE: Centering map on (-20,19)
+2018-01-28T14:12:14.659 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:14.659 characters.Hero NOTICE: (-21,19)
+2018-01-28T14:12:14.659 map.GameMap NOTICE: Centering map on (-21,19)
+2018-01-28T14:12:15.097 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:15.097 characters.Hero NOTICE: (-21,18)
+2018-01-28T14:12:15.097 map.GameMap NOTICE: Centering map on (-21,18)
+2018-01-28T14:12:15.580 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:15.581 characters.Hero NOTICE: (-22,18)
+2018-01-28T14:12:15.581 map.GameMap NOTICE: Centering map on (-22,18)
+2018-01-28T14:12:15.824 controls.Main NOTICE: Main window buttonpress: UP
+2018-01-28T14:12:15.824 characters.Hero NOTICE: (-22,19)
+2018-01-28T14:12:15.824 map.GameMap NOTICE: Centering map on (-22,19)
+2018-01-28T14:12:16.284 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:16.284 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 11 losing -8 health. Remaining: 32/40
+2018-01-28T14:12:16.284 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:16.284 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:16.456 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:16.457 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 8 losing -5 health. Remaining: 27/40
+2018-01-28T14:12:16.457 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:16.457 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:16.624 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:16.624 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 7 losing -4 health. Remaining: 23/40
+2018-01-28T14:12:16.624 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:16.624 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:12:16.788 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:16.788 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 9 losing -6 health. Remaining: 17/40
+2018-01-28T14:12:16.788 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:16.788 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:16.950 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:16.950 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 8 losing -5 health. Remaining: 12/40
+2018-01-28T14:12:16.950 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:16.950 characters.Hero GAME: You got hit for 3 losing 0
+2018-01-28T14:12:17.120 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:17.121 characters.NPCs.Monster GAME: goblin(2) [16] got hit for 10 losing -7 health. Remaining: 5/40
+2018-01-28T14:12:17.121 characters.NPCs.Monster INFO: goblin(2) [16] retaliating
+2018-01-28T14:12:17.121 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:17.288 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:17.288 characters.NPCs.Monster GAME: goblin(2) [16] died
+2018-01-28T14:12:17.288 characters.Hero GAME: Got LEG-Armor: leg 7[16]
+2018-01-28T14:12:17.450 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:17.885 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:12:17.885 characters.Hero NOTICE: (-21,19)
+2018-01-28T14:12:17.885 map.GameMap NOTICE: Centering map on (-21,19)
+2018-01-28T14:12:18.271 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:18.272 characters.Hero NOTICE: (-21,18)
+2018-01-28T14:12:18.272 map.GameMap NOTICE: Centering map on (-21,18)
+2018-01-28T14:12:18.723 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:18.723 characters.Hero NOTICE: (-21,17)
+2018-01-28T14:12:18.723 map.GameMap NOTICE: Centering map on (-21,17)
+2018-01-28T14:12:18.944 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:18.944 characters.Hero NOTICE: (-21,16)
+2018-01-28T14:12:18.944 map.GameMap NOTICE: Centering map on (-21,16)
+2018-01-28T14:12:19.192 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:19.192 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 10 losing -7 health. Remaining: 33/40
+2018-01-28T14:12:19.192 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:19.192 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:19.410 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:19.410 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 7 losing -4 health. Remaining: 29/40
+2018-01-28T14:12:19.410 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:19.410 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:19.578 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:19.578 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 8 losing -5 health. Remaining: 24/40
+2018-01-28T14:12:19.578 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:19.578 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:12:19.749 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:19.749 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 7 losing -4 health. Remaining: 20/40
+2018-01-28T14:12:19.749 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:19.749 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:19.939 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:19.939 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 9 losing -6 health. Remaining: 14/40
+2018-01-28T14:12:19.939 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:19.939 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:20.111 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:20.111 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 7 losing -4 health. Remaining: 10/40
+2018-01-28T14:12:20.111 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:20.111 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:20.283 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:20.283 characters.NPCs.Monster GAME: goblin(2) [15] got hit for 9 losing -6 health. Remaining: 4/40
+2018-01-28T14:12:20.283 characters.NPCs.Monster INFO: goblin(2) [15] retaliating
+2018-01-28T14:12:20.283 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:12:20.510 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:20.510 characters.NPCs.Monster GAME: goblin(2) [15] died
+2018-01-28T14:12:20.510 characters.Hero GAME: Got LEG-Armor: leg 0[17]
+2018-01-28T14:12:20.828 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:21.133 controls.Main NOTICE: Main window buttonpress: RIGHT
+2018-01-28T14:12:21.133 characters.Hero NOTICE: (-20,16)
+2018-01-28T14:12:21.133 map.GameMap NOTICE: Centering map on (-20,16)
+2018-01-28T14:12:21.561 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:21.561 characters.Hero NOTICE: (-20,15)
+2018-01-28T14:12:21.561 map.GameMap NOTICE: Centering map on (-20,15)
+2018-01-28T14:12:21.770 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:21.770 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 10 losing -6 health. Remaining: 39/45
+2018-01-28T14:12:21.770 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:21.770 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:21.947 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:21.947 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 9 losing -5 health. Remaining: 34/45
+2018-01-28T14:12:21.947 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:21.947 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:22.115 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.115 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 8 losing -4 health. Remaining: 30/45
+2018-01-28T14:12:22.115 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.115 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:22.292 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.292 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 7 losing -3 health. Remaining: 27/45
+2018-01-28T14:12:22.292 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.292 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:22.463 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.463 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 7 losing -3 health. Remaining: 24/45
+2018-01-28T14:12:22.463 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.463 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:12:22.635 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.635 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 10 losing -6 health. Remaining: 18/45
+2018-01-28T14:12:22.635 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.635 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:22.858 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.858 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 7 losing -3 health. Remaining: 15/45
+2018-01-28T14:12:22.858 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.858 characters.Hero GAME: You got hit for 6 losing 0
+2018-01-28T14:12:22.995 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:22.995 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 9 losing -5 health. Remaining: 10/45
+2018-01-28T14:12:22.995 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:22.995 characters.Hero GAME: You got hit for 5 losing 0
+2018-01-28T14:12:23.154 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:23.154 characters.NPCs.Monster GAME: goblin(2) [17] got hit for 9 losing -5 health. Remaining: 5/45
+2018-01-28T14:12:23.154 characters.NPCs.Monster INFO: goblin(2) [17] retaliating
+2018-01-28T14:12:23.154 characters.Hero GAME: You got hit for 4 losing 0
+2018-01-28T14:12:23.310 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:23.310 characters.NPCs.Monster GAME: goblin(2) [17] died
+2018-01-28T14:12:23.310 characters.Hero GAME: Got BOOTS-Armor: boots 0[18]
+2018-01-28T14:12:24 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:24 characters.Hero NOTICE: (-20,14)
+2018-01-28T14:12:24 map.GameMap NOTICE: Centering map on (-20,14)
+2018-01-28T14:12:24.255 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:24.255 characters.Hero NOTICE: (-21,14)
+2018-01-28T14:12:24.255 map.GameMap NOTICE: Centering map on (-21,14)
+2018-01-28T14:12:24.448 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:24.448 characters.Hero NOTICE: (-22,14)
+2018-01-28T14:12:24.448 map.GameMap NOTICE: Centering map on (-22,14)
+2018-01-28T14:12:24.642 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:24.642 characters.Hero NOTICE: (-23,14)
+2018-01-28T14:12:24.642 map.GameMap NOTICE: Centering map on (-23,14)
+2018-01-28T14:12:24.837 controls.Main NOTICE: Main window buttonpress: LEFT
+2018-01-28T14:12:24.837 characters.Hero NOTICE: (-24,14)
+2018-01-28T14:12:24.837 map.GameMap NOTICE: Centering map on (-24,14)
+2018-01-28T14:12:25.780 controls.Main NOTICE: Main window buttonpress: DOWN
+2018-01-28T14:12:25.938 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:25.938 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 10 losing -6 health. Remaining: 95/101
+2018-01-28T14:12:25.938 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:25.938 characters.Hero GAME: You got hit for 11 losing -5
+2018-01-28T14:12:26.090 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.090 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 10 losing -6 health. Remaining: 89/101
+2018-01-28T14:12:26.090 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:26.090 characters.Hero GAME: You got hit for 11 losing -5
+2018-01-28T14:12:26.265 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.266 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 12 losing -8 health. Remaining: 81/101
+2018-01-28T14:12:26.266 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:26.266 characters.Hero GAME: You got hit for 12 losing -6
+2018-01-28T14:12:26.430 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.430 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 10 losing -6 health. Remaining: 75/101
+2018-01-28T14:12:26.430 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:26.430 characters.Hero GAME: GAME OVER
+2018-01-28T14:12:26.602 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.602 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 7 losing -3 health. Remaining: 72/101
+2018-01-28T14:12:26.603 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:26.603 characters.Hero GAME: GAME OVER
+2018-01-28T14:12:26.774 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.774 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 10 losing -6 health. Remaining: 66/101
+2018-01-28T14:12:26.774 characters.NPCs.Monster INFO: dragon(4) [18] retaliating
+2018-01-28T14:12:26.774 characters.Hero GAME: GAME OVER
+2018-01-28T14:12:26.941 controls.Main NOTICE: Main window buttonpress: SPACE
+2018-01-28T14:12:26.941 characters.NPCs.Monster GAME: dragon(4) [18] got hit for 11

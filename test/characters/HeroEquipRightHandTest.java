@@ -1,3 +1,4 @@
+/*
 package characters;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -18,7 +19,7 @@ import items.equipments.weapons.Weapon;
 
 @RunWith(JUnit4.class)
 public class HeroEquipRightHandTest {
-	
+
 	Hero h;
 	
 	@Before
@@ -114,3 +115,4 @@ public class HeroEquipRightHandTest {
 	}
 
 }
+*/
